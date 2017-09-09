@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "babel-node lib/server.js",
     "webpack": "webpack -wd",
-    "test":"jest --watch"
+    "test": "jest --watch"
   },
   "babel": {
     "presets": [
@@ -19,7 +19,8 @@
     "babel-eslint": "^7.2.3",
     "eslint": "^4.5.0",
     "eslint-plugin-react": "^7.3.0",
-    "jest": "^21.0.2"
+    "jest": "^21.0.2",
+    "react-test-renderer": "^15.6.1"
   },
   "dependencies": {
     "babel-cli": "^6.26.0",
