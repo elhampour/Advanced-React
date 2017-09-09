@@ -1,0 +1,10 @@
+yarn init
+yarn dev
+pm2 logs
+time yarn webpack
+yarn test
+yarn verify-tests
+yarn upgrade-interactive
+after chage , the snapshot changed, so in the cmd of jest, click u on the keyboard
+
+
